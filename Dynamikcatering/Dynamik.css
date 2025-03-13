@@ -216,15 +216,20 @@
   background-size: cover;
   color: whitesmoke;
 }
-
-.service_item i {
-  font-size: 24px;
+.service-item p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.service-item h3{
+  font-size: 30px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 #testimonials {
   padding: 50px 0;
   background-image: url('./dynamiknew.jpg');
+  background-size: cover;
 }
 
 #testimonials.container {
@@ -257,14 +262,14 @@ flex-wrap: wrap;
   width: calc(33.333% - 20px);
 }
 
-.testimonial p {
+.testimonial-item p {
   font-size: 18px;
   margin-bottom: 10px;
   font-style: italic;
   color: white;
 }
 
-.testimonial span {
+.testimonial-item span {
   font-size: 16px;
   font-weight: bold;
   color: white;
