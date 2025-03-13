@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <lang="en">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="Dynamik.css">
+       
+      <!-- Hero Section -->
+<section id="hero">
+  <div class="hero-container">
+    <h1>Welcome to DYNAMIK Caterings</h1>
+    <p>Experience the best food and service for your events</p>
+    <a href="#" class="btn-get-started">Get Started</a>
+  </div>
+</section>
+
+        <!-- About Us Section -->
+<section id="about">
+  <div class="about-container">
+    <h2>About Us</h2>
+    <p>We are a team of passionate chefs and event planners dedicated to providing exceptional catering services.</p>
+    <div class="about-image">
+      <img src="dynamick.jpg" alt="About Us Image">
+    </div>
+    <div class="about-info">
+      <h3>Our Story</h3>
+      <p>We started our catering business with a simple goal: to provide delicious food and exceptional service to our clients.</p>
+      <h3>Our Team</h3>
+      <p>Meet our team of experienced chefs, event planners, and customer service specialists.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <div class="services-container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <i class="fas fa-utensils"></i>
+        <h3>Catering Services</h3>
+        <p>We provide customized catering services for events and parties.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-birthday-cake"></i>
+        <h3>Wedding Catering</h3>
+        <p>We specialize in wedding catering, providing delicious food and exceptional service.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-coffee"></i>
+        <h3>Corporate Catering</h3>
+        <p>We provide catering services for corporate events, meetings, and conferences.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu">
+  <div class="menu-container">
+    <h2>Our Menu</h2>
+    <div class="menu-tabs">
+      <button class="tablinks" id="appetizers" onClick= "menu_one()">Appetizers</button>
+      <button class="tablinks" id="snacks" onClick= "menu_two()">Snacks</button>
+      <button class="tablinks" id="african_dishes" onClick= "menu_three()">African dishes</button>
+      <button class="tablinks" id="desserts" onClick= "menu_four()">Desserts</button>
+      <button class="tablinks" id="cakes" onClick= "menu_five()">Cakes</button>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-coffee"></i>
+      <h3>Corporate Catering</h3>
+      <p>We provide catering services for corporate events, meetings, and conferences.</p>
+  </div>
+  <script>
+    function menu_one() {
+      document.getElementById("appetizers").innerHTML = `<div>
+          <h3>Appetizers</h3>
+          <ul>
+            <li>Gizdodo</li>
+            <li>Meat balls</li>
+            <li>Plantain mosa</li>
+            <li>Asun</li>
+            <li>Peppered snail</li>
+          </ul>
+        </div>`;
+    }
+    function menu_two() {
+      document.getElementById('snacks').innerHTML = `<div>
+          <h3>Snacks</h3>
+          <ul>
+            <li>Small chops</li>
+            <li>Meat pie</li>
+            <li>Bread rolls</li>
+            <li>Sausage rolls</li>
+            <li>Egg rolls</li>
+            <li>Scotch eggs</li>
+          </ul>
+        </div>`;
+      }
+      
+    function menu_three() {
+      document.getElementById('african_dishes').innerHTML = `<div>
+          <h3>African dishes</h3>
+          <ul>
+            <li>Jollof rice and turkey with plantain</li>
+            <li>Fried rice and chicken with plantain</li>
+            <li>Coconut rice and chicken</li>
+            <li>White rice and stew with beef</li>
+            <li>Pounded yam with egusi and beef</li>
+            <li>Amala with ewedu and goat meat</li>
+            <li>Semo with eforiro and fish</li>
+          </ul>
+        </div>`;
+
+    }
+
+    function menu_four() {
+      document.getElementById('desserts').innerHTML = `<div>
+          <h3>Desserts</h3>
+          <ul>
+            <li>chocolate chips cake</li>
+            <li>Cake slices</li>
+            <li>Yourghut cake</li>
+            <li>Carrot cake</li>
+          </ul>
+        </div>`;
+      }
+
+      function menu_five() {
+      document.getElementById('cakes').innerHTML = `<div>
+          <h3>Cakes</h3>
+          <ul>
+            <li>Red velvet cake</li>
+            <li>Chocolate cake</li>
+            <li>Strawberry cake</li>
+            <li>Vanilla cake</li>
+            <li>Marble cake</li>
+          </ul>
+        </div>`;
+      }
+  </script>
+</section>
+
+        <!--Testimonials Section-->
+<section id="testimonials">
+  <div class="testimonials-container">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-item">
+      <p>"The food was delicious and the service was excellent. I highly recommend DYNAMIK Catering for your events."</p>
+      <span>--Janet, Wema Bank</span>
+    </div>
+    <div class="testimonial-item">
+      <p>"The catering team was professional and the food was amazing. We will definitely use DYNAMIK Catering again."</p>
+      <span>--John, Old Mutual</span>
+    </div>
+    <div class="testimonial-item">
+      <p>"We had a great experience with DYNAMIK Catering. The food was delicious and the service was top-notch."</p>
+      <span>--Sarah, Access Bank</span>
+    </div>
+  <div class="rating">
+      <span>4.9/5</span>
+      <span>Based on 100+ reviews</span>
+    </div>
+  </div>
+</section>
+
+    </html>

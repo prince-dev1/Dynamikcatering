@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#hero {
+  background-image: url('./newbackd.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+.hero-container {
+  text-align: center;
+}
+
+.hero-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.btn-get-started {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-get-started:hover {
+  background-color: #b3000f;
+}
+
+#about {
+  padding: 50px 0;
+  background-image: url('./dynamik.jpeg');
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(236, 97, 59, 0.1);
+  background-image: url('./dynamikdonut.jpg');
+  background-size: cover;
+}
+
+.about-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b3000f;
+}
+
+.about-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.about-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.about-info {
+  margin-top: 20px;
+}
+
+.about-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#services {
+  padding: 50px 0;
+  background-color: grey;
+}
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
+  background-size: cover;
+  color: #b3000f;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.service-item {
+  background-color: grey;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.service-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#menu {
+  padding: 50px 0;
+  background-image: url('./dynamick.jpg');
+  height: 70vh;
+}
+
+.menu-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.tablinks {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tablinks:hover {
+  background-color: red;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabcontent h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.tabcontent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabcontent li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabcontent li:last-child {
+  border-bottom: none;
+}
+
+.service_item {
+  background-color: grey;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('./dynamick.jpg');
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.service_item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#testimonials {
+  padding: 50px 0;
+  background-image: url('./dynamiknew.jpg');
+}
+
+#testimonials.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.testimonial-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(33.333% - 20px);
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: white;
+}
+
+.testimonial span {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.rating {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rating span {
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
+}
