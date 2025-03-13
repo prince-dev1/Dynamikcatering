@@ -144,7 +144,7 @@
 
 #menu {
   padding: 50px 0;
-  background-image: url('./dynamick.jpg');
+  background-image: url('./dynamik.jpeg');
   height: 70vh;
 }
 
@@ -263,7 +263,7 @@ flex-wrap: wrap;
 }
 
 .testimonial-item p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   font-style: italic;
   color: white;
@@ -284,4 +284,97 @@ flex-wrap: wrap;
   font-size: 18px;
   color: white;
   margin-right: 10px;
+}
+
+#contact {
+  padding: 50px 0;
+  background-image: url('./dynamiksl.jpeg');
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b3000f;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #b3000f;
+}
+
+.contact-info {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#cta {
+  padding: 50px 0;
+  background-image: url('./dynamik3.jpeg');
+  color: white;
+  text-align: center;
+}
+
+.cta-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: chartreuse;
+}
+
+.cta-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  size: 25px;
+}
+
+.cta-container a {
+  background-color: grey;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cta-container a:hover {
+  background-color: #b3000f;
+  color: white;
 }
