@@ -8,11 +8,15 @@
   background-image: url('./newbackd.jpeg');
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: red;
+}
+
+.jollof{
+height:200vh;
 }
 
 .hero-container {
@@ -93,6 +97,8 @@
 #services {
   padding: 50px 0;
   background-color: grey;
+  padding-left: 50%;
+  background-image: url('./dynamikmeatpie.jpg');
 }
 
 .services-container {
@@ -124,11 +130,6 @@
   background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
   background-size: cover;
   color: whitesmoke;
-}
-
-.service-item i {
-  font-size: 24px;
-  margin-bottom: 10px;
 }
 
 .service-item h3 {
@@ -377,4 +378,18 @@ flex-wrap: wrap;
 .cta-container a:hover {
   background-color: #b3000f;
   color: white;
+}
+
+#footer{
+  background-color: white;
+  padding: 50px, 0;
+  text-align: center;
+}
+
+.footer-container{
+  background-color: goldenrod;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
 }
