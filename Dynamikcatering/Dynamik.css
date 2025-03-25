@@ -1,46 +1,52 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
 
 #hero {
   background-image: url('./newbackd.jpeg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: red;
 }
 
-.jollof{
-height:200vh;
+.meals-display .meal{
+  width:25%;
+  height: 55vh;
+  background-repeat: no-repeat;
+  padding:20px 0;
+  margin:10px 40px;
 }
 
 .hero-container {
   text-align: center;
+  height:40vh;
 }
 
 .hero-container h1 {
-  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .hero-container p {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.25em;
+  margin-bottom: 1.875em;
   color: white;
+  padding:0;
 }
 
 .btn-get-started {
   background-color: #007bff;
   color: #fff;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
 .btn-get-started:hover {
@@ -48,7 +54,7 @@ height:200vh;
 }
 
 #about {
-  padding: 50px 0;
+  padding: 3.125em 0;
   background-image: url('./dynamik.jpeg');
 }
 
@@ -96,8 +102,7 @@ height:200vh;
 
 #services {
   padding: 50px 0;
-  background-color: grey;
-  padding-left: 50%;
+  padding-left: 30%;
   background-image: url('./dynamikmeatpie.jpg');
 }
 
@@ -119,26 +124,28 @@ height:200vh;
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 .service-item {
-  background-color: grey;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
   background-size: cover;
+  background-repeat: no-repeat;
   color: whitesmoke;
 }
 
 .service-item h3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .service-item p {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -147,10 +154,11 @@ height:200vh;
   padding: 50px 0;
   background-image: url('./dynamik.jpeg');
   height: 70vh;
+  background-repeat: round;
 }
 
 .menu-container {
-  max-width: 800px;
+  width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -169,42 +177,17 @@ height:200vh;
 }
 .tablinks {
   background-color: white;
-  border: none;
+  border-radius: 4px;
+  border-style: groove;
+  border-color: aquamarine;
+  border-width: 2px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 
 .tablinks:hover {
-  background-color: red;
-}
-
-.tabcontent {
-  display: none;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.tabcontent h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.tabcontent ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.tabcontent li {
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.tabcontent li:last-child {
-  border-bottom: none;
+  background-color: aquamarine;
 }
 
 .service_item {
@@ -219,7 +202,7 @@ height:200vh;
 }
 .service-item p {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 .service-item h3{
   font-size: 30px;
@@ -264,6 +247,7 @@ flex-wrap: wrap;
 }
 
 .testimonial-item p {
+ margin-inline-start: 10px;
   font-size: 20px;
   margin-bottom: 10px;
   font-style: italic;
@@ -271,6 +255,7 @@ flex-wrap: wrap;
 }
 
 .testimonial-item span {
+  margin-inline-start: 10px;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -290,6 +275,7 @@ flex-wrap: wrap;
 #contact {
   padding: 50px 0;
   background-image: url('./dynamiksl.jpeg');
+  background-repeat: round;
 }
 
 .contact-container {
@@ -351,6 +337,7 @@ flex-wrap: wrap;
   background-image: url('./dynamik3.jpeg');
   color: white;
   text-align: center;
+  background-repeat:round;
 }
 
 .cta-container h2 {
