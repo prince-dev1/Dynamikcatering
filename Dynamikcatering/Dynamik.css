@@ -9,14 +9,16 @@
   background-size: cover;
   background-position: center;
   color: red;
+  height: 100%;
+  width: 100%;
 }
 
 .meals-display .meal{
   width:25%;
   height: 55vh;
   background-repeat: no-repeat;
-  padding:20px 0;
-  margin:10px 40px;
+  padding:30px 0;
+  margin:10px 50px;
 }
 
 .hero-container {
@@ -28,25 +30,25 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 50px;
+  padding-top: 40px;
 }
 .hero-container p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.25em;
-  margin-bottom: 1.875em;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   color: white;
-  padding:0;
 }
 
 .btn-get-started {
   background-color: #007bff;
   color: #fff;
-  padding: 0.625em 1.25em;
+  padding: 10px 5px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-
 }
 
 .btn-get-started:hover {
@@ -104,6 +106,9 @@
   padding: 50px 0;
   padding-left: 30%;
   background-image: url('./dynamikmeatpie.jpg');
+  background-repeat: no no-repeat;
+  /*background-position: center;
+  background-size: cover;*/
 }
 
 .services-container {
