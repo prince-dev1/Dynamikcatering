@@ -4,220 +4,323 @@
     <lang="en">
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="Dynamik.css">
+         <!-- Bootstrap CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="Dynamik.css" />
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
       </head>
+
+  <body>
       <!-- Hero Section -->
-<section id="hero">
-  <div class="hero-container">
-    <h1>Welcome to DYNAMIK Cakes&Caterings</h1>
-    <p>Experience the best food and service for your events</p>
-    <!-- <script>
-      function fun(params) {
-        alert("Welcome to DYNAMIK Cakes&Caterings! We are here to serve you the best food and service for your events.");
-      }
-      fun();
-    </script>
-    <button onclick="fun()">Get Started</button> !-->
-    <a href="https://wa.link/7x3749" target="blank" class="btn-get-started">Get Started</a>
+       <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">DYNAMIK Catering</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="meals-display">
-    <img class="meal" src="dynamikcake2.jpg" alt="Dynamik meal">
-    <img class="meal" src="dynamikfoodcombo1.jpg" alt="Dynamik meal">
-    <img class="meal" src="dynamikgrilledchicken.jpg" alt="Dynamik meal">
-    <img class="meal" src="dynamikjolofe.jpg" alt="Dynamik meal">
-    <img class="meal" src="dynamikturkeyf.jpg" alt="Dynamik meal">
-    <img class="meal" src="dynamikcakey.jpg" alt="Dynamik meal">
-  </div>
-</section>
+</nav>
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center text-center py-5" style="padding-top: 70px;">
+  <div class="container">
+   <!-- <h1 class="display-4 fw-bold scrolling-text">Welcome to DYNAMIK Cakes & Caterings</h1> -->
+    <p class="lead">Experience the best food and service for your events</p>
+    <div class="d-flex justify-content-center gap-3 mt-4">
+      <a href="https://wa.link/7x3749" target="_blank" class="btn btn-primary btn-lg">Get Started</a>
+      <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikcake2.jpg" alt="Dynamik meal">
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikfoodcombo1.jpg" alt="Dynamik meal">
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikgrilledchicken.jpg" alt="Dynamik meal">
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikjolofe.jpg" alt="Dynamik meal">
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikturkeyf.jpg" alt="Dynamik meal">
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <img class="img-fluid rounded" src="dynamikcakey.jpg" alt="Dynamik meal">
+          </div>
+        </div>
+      </section>
 
-        <!-- About Us Section -->
-<section id="about">
-  <div class="about-container">
-    <h2>About Us</h2>
-    <p>We are a team of passionate chefs and event planners dedicated to providing exceptional catering services.</p>
-    <div class="about-image">
-      <img src="dynamick.jpg" alt="About Us Image">
-    </div>
-    <div class="about-info">
-      <h3>Our Story</h3>
-      <p>We started our catering business with a simple goal: to provide delicious food and exceptional service to our clients.</p>
-      <h3>Our Team</h3>
-      <p>Meet our team of experienced chefs, event planners, and customer service specialists.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Services Section -->
-<section id="services">
-  <div class="services-container">
-    <h2>Our Services</h2>
-    <div class="services-grid">
-      <div class="service-item">
-        <h3>Catering Services</h3>
-        <p>We provide customized catering services for events and parties.</p>
-      </div>
-      <div class="service-item">
-        <h3>Wedding Catering</h3>
-        <p>We specialize in wedding catering, providing delicious food and exceptional service.</p>
-      </div>
-      <div class="service-item">
-        <h3>Cake Making</h3>
-        <p>We specialize in making beautiful wedding cake for your wedding events.</p>
-      </div>
-      <div class="service-item">
-        <h3>Corporate Catering</h3>
-        <p>We provide catering services for corporate events, meetings, and conferences.</p>
-      </div>
-      <div class="service-item">
-        <h3>Event Planning</h3>
-        <p>We plan your event, maximizing available resources to deliver best experiences.</p>
-      </div>
-    </div>
-  </div>
-</section>
+      <!-- Service Section -->
+      <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Our Services</h2>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title">Catering Services</h3>
+                  <p class="card-text">We provide customized catering services for events and parties.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title">Wedding Catering</h3>
+                  <p class="card-text">We specialize in wedding catering, providing delicious food and exceptional service.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title">Cake Making</h3>
+                  <p class="card-text">We specialize in making beautiful wedding cakes for your wedding events.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 <!-- Menu Section -->
-<section id="menu">
-  <div class="menu-container">
-    <h2>Our Menu</h2>
-    <div class="menu-tabs">
-      <button class="tablinks" id="appetizers" onClick= "menu_one()">Appetizers</button>
-      <button class="tablinks" id="snacks" onClick= "menu_two()">Snacks</button>
-      <button class="tablinks" id="african_dishes" onClick= "menu_three()">African dishes</button>
-      <button class="tablinks" id="desserts" onClick= "menu_four()">Desserts</button>
-      <button class="tablinks" id="cakes" onClick= "menu_five()">Cakes</button>
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <button class="btn btn-primary w-100" onClick="menu_one()">Appetizers</button>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <button class="btn btn-primary w-100" onClick="menu_two()">Snacks</button>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <button class="btn btn-primary w-100" onClick="menu_three()">African Dishes</button>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <button class="btn btn-primary w-100" onClick="menu_four()">Desserts</button>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <button class="btn btn-primary w-100" onClick="menu_five()">Cakes</button>
+      </div>
     </div>
-    <div class="service-item">
-      <h3>Corporate Catering</h3>
-      <p>We provide catering services for corporate events, meetings, and conferences.</p>
+    <div class="row mt-4">
+      <div class="col-12">
+        <div id="menu-content" class="p-4 border rounded bg-light">
+          <h3>Select a menu category to view items</h3>
+        </div>
+      </div>
+    </div>
   </div>
   <script>
     function menu_one() {
-      document.getElementById("appetizers").innerHTML = `<div>
-          <h3>Appetizers</h3>
-          <ul>
-            <li>Gizdodo</li>
-            <li>Meat balls</li>
-            <li>Plantain mosa</li>
-            <li>Asun</li>
-            <li>Peppered snail</li>
-          </ul>
-        </div>`;
+      document.getElementById("menu-content").innerHTML = `
+        <h3>Appetizers</h3>
+        <ul>
+          <li>Gizdodo</li>
+          <li>Meat balls</li>
+          <li>Plantain mosa</li>
+          <li>Asun</li>
+          <li>Peppered snail</li>
+        </ul>`;
     }
+  
     function menu_two() {
-      document.getElementById('snacks').innerHTML = `<div>
-          <h3>Snacks</h3>
-          <ul>
-            <li>Small chops</li>
-            <li>Meat pie</li>
-            <li>Bread rolls</li>
-            <li>Sausage rolls</li>
-            <li>Egg rolls</li>
-            <li>Scotch eggs</li>
-          </ul>
-        </div>`;
-      }
-      
-    function menu_three() {
-      document.getElementById('african_dishes').innerHTML = `<div>
-          <h3>African dishes</h3>
-          <ul>
-            <li>Jollof rice and turkey with plantain</li>
-            <li>Fried rice and chicken with plantain</li>
-            <li>Coconut rice and chicken</li>
-            <li>White rice and stew with beef</li>
-            <li>Pounded yam with egusi and beef</li>
-            <li>Amala with ewedu and goat meat</li>
-            <li>Semo with eforiro and fish</li>
-          </ul>
-        </div>`;
-
+      document.getElementById("menu-content").innerHTML = `
+        <h3>Snacks</h3>
+        <ul>
+          <li>Small chops</li>
+          <li>Meat pie</li>
+          <li>Bread rolls</li>
+          <li>Sausage rolls</li>
+          <li>Egg rolls</li>
+          <li>Scotch eggs</li>
+        </ul>`;
     }
-
+  
+    function menu_three() {
+      document.getElementById("menu-content").innerHTML = `
+        <h3>African Dishes</h3>
+        <ul>
+          <li>Jollof rice and turkey with plantain</li>
+          <li>Fried rice and chicken with plantain</li>
+          <li>Coconut rice and chicken</li>
+          <li>White rice and stew with beef</li>
+          <li>Pounded yam with egusi and beef</li>
+          <li>Amala with ewedu and goat meat</li>
+          <li>Semo with eforiro and fish</li>
+        </ul>`;
+    }
+  
     function menu_four() {
-      document.getElementById('desserts').innerHTML = `<div>
-          <h3>Desserts</h3>
-          <ul>
-            <li>chocolate chips cake</li>
-            <li>Cake slices</li>
-            <li>Yourghut cake</li>
-            <li>Carrot cake</li>
-          </ul>
-        </div>`;
-      }
-
-      function menu_five() {
-      document.getElementById('cakes').innerHTML = `<div>
-          <h3>Cakes</h3>
-          <ul>
-            <li>Red velvet cake</li>
-            <li>Chocolate cake</li>
-            <li>Strawberry cake</li>
-            <li>Vanilla cake</li>
-            <li>Marble cake</li>
-          </ul>
-        </div>`;
-      }
+      document.getElementById("menu-content").innerHTML = `
+        <h3>Desserts</h3>
+        <ul>
+          <li>Chocolate chips cake</li>
+          <li>Cake slices</li>
+          <li>Yoghurt cake</li>
+          <li>Carrot cake</li>
+        </ul>`;
+    }
+  
+    function menu_five() {
+      document.getElementById("menu-content").innerHTML = `
+        <h3>Cakes</h3>
+        <ul>
+          <li>Red velvet cake</li>
+          <li>Chocolate cake</li>
+          <li>Strawberry cake</li>
+          <li>Vanilla cake</li>
+          <li>Marble cake</li>
+        </ul>`;
+    }
   </script>
 </section>
-
-        <!--Testimonials Section-->
-<section id="testimonials">
-  <div class="testimonials-container">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonial-item">
-      <p>"The food was delicious and the service was excellent. I highly recommend DYNAMIK Catering for your events."</p>
-      <span>--Janet, Wema Bank</span>
+        <!-- Testimonials Section -->
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">What Our Customers Say</h2>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"The food was delicious and the service was excellent. I highly recommend DYNAMIK Catering for your events."</p>
+            <span class="text-muted">-- Janet, Wema Bank</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"The catering team was professional and the food was amazing. We will definitely use DYNAMIK Catering again."</p>
+            <span class="text-muted">-- John, Old Mutual</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"We had a great experience with DYNAMIK Catering. The food was delicious and the service was top-notch."</p>
+            <span class="text-muted">-- Sarah, Access Bank</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="testimonial-item">
-      <p>"The catering team was professional and the food was amazing. We will definitely use DYNAMIK Catering again."</p>
-      <span>--John, Old Mutual</span>
-    </div>
-    <div class="testimonial-item">
-      <p>"We had a great experience with DYNAMIK Catering. The food was delicious and the service was top-notch."</p>
-      <span>--Sarah, Access Bank</span>
-    </div>
-  <div class="rating">
-      <span>4.9/5</span>
-      <span>Based on 100+ reviews</span>
+    <div class="text-center mt-4">
+      <div class="rating">
+        <h4>4.9/5</h4>
+        <p class="fact">Based on 100+ reviews</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
-  <div class="contact-container">
-    <h2>Contact Us</h2>
-    <div class="contact-form">
-      <form>
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="phone" placeholder="Phone" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit" >Send Message</button>
-      </form>
-    </div>
-    <div class="contact-info">
-      <h3>Contact Information</h3>
-      <p>Phone: +234 816 509 2820</p>
-      <p>Email: <a href="ayodelemary459@gmail.com">ayodelemary459@gmail.com</a></p>
-      <p>Gbaremu Market Sango/Eleyele Road, Ibadan, Nigeria</p>
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6 mb-4">
+        <form class="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit"  class="btn btn-primary w-100"><a href="https://wa.link/7x3749" target="_blank">Send Message</a></button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <div class="contact-info">
+          <h4>Get in Touch</h4>
+          <p><strong>Address:</strong> Gbaremu Market Sango-Eleyele Road, Ibadan. Nigeria</p>
+          <p><strong>Phone:</strong> +234 816 509 2820</p>
+          <p><strong>Email:</strong><a href="ayodelemary459@gmail.com">ayodelemary459@gmail.com</a></p>
+          <p><strong>Working Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Call-to-Action Section -->
-<section id="cta">
-  <div class="cta-container">
-    <h2>Ready to Get Started?</h2>
-    <p>Ready to experience the best catering services? Contact us today to get a quote</p>
-    <a href="https://wa.link/7x3749" class="cta-btn">Book Now</a>
+<section id="cta" class="py-5 bg-primary text-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Ready to Get Started?</h2>
+    <p class="lead mb-4">Ready to experience the best catering services? Contact us today to get a quote.</p>
+    <a href="https://wa.link/7x3749" class="btn btn-light btn-lg">Book Now</a>
   </div>
 </section>
 
-<!--Footer-->
-<section id="footer">
-  <div class="footer-container">
-    <p> All Rights Reserved to DynamikCatering @2025</p>
+<!-- Footer -->
+<footer id="footer" class="py-4 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <!-- Footer Text -->
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        <p>All Rights Reserved to DynamikCatering @2025</p>
+      </div>
+      <!-- Social Media Links -->
+      <div class="col-md-6 text-center text-md-end">
+        <a href="https://facebook.com" target="_blank" class="text-white me-3">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://instagram.com" target="_blank" class="text-white me-3">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://twitter.com" target="_blank" class="text-white">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+      </div>
+    </div>
   </div>
-</section>
+</footer>
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
     </html>
