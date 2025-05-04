@@ -5,7 +5,7 @@
 }
 
 #hero {
-  background-image: url('./newbackd.jpeg');
+  background-image: url('./images/newbackd.jpeg');
   background-size: cover;
   background-position: center;
   color: red;
@@ -89,7 +89,7 @@ color: white
 
 #about {
   padding: 3.125em 0;
-  background-image: url('./dynamik.jpeg');
+  background-image: url('./images/dynamik.jpeg');
 }
 
 .about-container {
@@ -98,7 +98,7 @@ color: white
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(236, 97, 59, 0.1);
-  background-image: url('./dynamikdonut.jpg');
+  background-image: url('./images/dynamikdonut.jpg');
   background-size: cover;
 }
 
@@ -137,7 +137,7 @@ color: white
 #services {
   padding: 50px 0;
   padding-left: 30%;
-  background-image: url('./dynamikmeatpie.jpg');
+  background-image: url('./images/dynamikmeatpie.jpg');
   background-repeat: no no-repeat;
   /*background-position: center;
   background-size: cover;*/
@@ -153,7 +153,7 @@ color: white
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
-  background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
+  background-image: url('./images/b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
   background-size: cover;
   color: #b3000f;
 }
@@ -172,7 +172,7 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-image: url('./b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
+  background-image: url('./images/b949c1e3-3853-4de0-ae07-643d2ea4636d.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   color: whitesmoke;
@@ -193,7 +193,7 @@ h2 {
 
 #menu {
   padding: 50px 0;
-  background-image: url('./dynamik.jpeg');
+  background-image: url('./images/dynamik.jpeg');
   height: 80vh;
   background-repeat: round;
 }
@@ -237,7 +237,7 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-image: url('./dynamick.jpg');
+  background-image: url('./images/dynamick.jpg');
   background-size: cover;
   color: whitesmoke;
 }
@@ -253,7 +253,7 @@ h2 {
 
 #testimonials {
   padding: 50px 0;
-  background-image: url('./dynamiknew.jpg');
+  background-image: url('./images/dynamiknew.jpg');
   background-size: cover;
 }
 
@@ -320,7 +320,7 @@ flex-wrap: wrap;
 
 #contact {
   padding: 50px 0;
-  background-image: url('./dynamiksl.jpeg');
+  background-image: url('./images/dynamiksl.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -409,7 +409,7 @@ flex-wrap: wrap;
 
 #cta {
   padding: 50px 0;
-  background-image: url('./dynamik3.jpeg');
+  background-image: url('./images/dynamik3.jpeg');
   color: white;
   text-align: center;
   background-repeat:round;
@@ -443,7 +443,7 @@ flex-wrap: wrap;
 }
 
 #cta {
-  background-image: url('./cta-background.jpg'); /* Replace with your image */
+  background-image: url('./images/cta-background.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
   padding: 50px 0;
